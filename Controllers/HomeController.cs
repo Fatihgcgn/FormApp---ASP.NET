@@ -9,6 +9,7 @@ public class HomeController : Controller
 {
     public HomeController() { }
 
+    [HttpGet]
     public IActionResult Index(string searchString, string category)
     {
         var products = Repository.Products;
@@ -26,7 +27,8 @@ public class HomeController : Controller
 
         // ViewBag.Categories = new SelectList(Repository.Categories, "CategoryId", "Name", category);
 
-        var model = new ProductModelView{
+        var model = new ProductModelView
+        {
             Products = products,
             Categories = Repository.Categories,
             SelectedCategory = category
@@ -34,7 +36,15 @@ public class HomeController : Controller
         return View(model);
     }
 
-    public IActionResult Privacy()
+    [HttpGet]
+    public IActionResult Create()
+    {
+        ViewBag.Categories = Repository.Categories;
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult Create(Product model)
     {
         return View();
     }
