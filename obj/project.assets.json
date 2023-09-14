@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp - Category error\\FormApp.csproj",
+      "projectUniqueName": "c:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp\\FormApp.csproj",
       "projectName": "FormApp",
-      "projectPath": "c:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp - Category error\\FormApp.csproj",
+      "projectPath": "c:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp\\FormApp.csproj",
       "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp - Category error\\obj\\",
+      "outputPath": "c:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\VISUAL STUDIO 2019\\VISUAL STUDIO SDK\\NuGetPackages"

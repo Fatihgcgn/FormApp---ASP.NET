@@ -9,21 +9,21 @@ namespace FormApp.Models
         [Display(Name = "Urun Id")]
         public int ProductId { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Gerekli alan giriniz!")]
+        [StringLength(100)]
         [Display(Name = "Urun Adı")]
-        public string? Name { get; set; }
+        public string Name { get; set; } = null!;
 
-        [Required]
+        [Required(ErrorMessage = "Fiyat bilgisini zorunludur")]
+        [Range(0, 100000)]
         [Display(Name = "Fiyat")]
         public decimal? Price { get; set; }
 
-        [Required]
         [Display(Name = "Resim")]
         public string? Image { get; set; }
         public bool IsActive { get; set; }
 
         [Display(Name = "Category")]
-
         [Required]
         public int? CategoryId { get; set; }
     }

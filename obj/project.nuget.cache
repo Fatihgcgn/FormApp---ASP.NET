@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "65zusVtoIYYGxuieqiV0iqrNia8ZHFsRyjFPbIIef2rVOHb08zrKRfn3YPjdE3dRAVc+hxtkygV/i0NkA4rCcQ==",
+  "dgSpecHash": "e9x5C+5JyKvMs0vmiIdUxU4ygBsodxWmAYk3baqwWSyxObL0nLAwLmKmQGbEGkMdRNsnQ/KXIDdm7u+0ZhGKzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp - Category error\\FormApp.csproj",
+  "projectFilePath": "C:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp\\FormApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
