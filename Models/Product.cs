@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace FormApp.Models
 {
-    [Bind("Name", "Price")]
     public class Product
     {
         [Display(Name = "Urun Id")]
@@ -21,9 +20,7 @@ namespace FormApp.Models
         [Required]
         [Display(Name = "Resim")]
         public string? Image { get; set; }
-
-        [Required]
-        public bool? IsActive { get; set; }
+        public bool IsActive { get; set; }
 
         [Display(Name = "Category")]
 

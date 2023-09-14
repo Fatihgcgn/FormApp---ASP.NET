@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp\\FormApp.csproj": {}
+    "C:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp - Category error\\FormApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp\\FormApp.csproj": {
+    "C:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp - Category error\\FormApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp\\FormApp.csproj",
+        "projectUniqueName": "C:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp - Category error\\FormApp.csproj",
         "projectName": "FormApp",
-        "projectPath": "C:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp\\FormApp.csproj",
+        "projectPath": "C:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp - Category error\\FormApp.csproj",
         "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp\\obj\\",
+        "outputPath": "C:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp - Category error\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VISUAL STUDIO 2019\\VISUAL STUDIO SDK\\NuGetPackages"
