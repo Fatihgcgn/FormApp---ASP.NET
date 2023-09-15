@@ -9,19 +9,19 @@
   },
   "packageFolders": {
     "C:\\Users\\fatih\\.nuget\\packages\\": {},
-    "D:\\VISUAL STUDIO 2019\\VISUAL STUDIO SDK\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp\\FormApp.csproj",
+      "projectUniqueName": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FormApp---ASP.NET\\FormApp.csproj",
       "projectName": "FormApp",
-      "projectPath": "c:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp\\FormApp.csproj",
+      "projectPath": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FormApp---ASP.NET\\FormApp.csproj",
       "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\FormApp\\obj\\",
+      "outputPath": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FormApp---ASP.NET\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\VISUAL STUDIO 2019\\VISUAL STUDIO SDK\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -70,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
