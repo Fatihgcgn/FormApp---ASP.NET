@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bS52PnwanpERJ5RRS2kfDLBikLLuW/c+4IdbRhaNWd8=",
+  "Hash": "o1AI8OG0ZSx8QeDbQ7cqXpNUXU+n+urFsHjRMfJpsKc=",
   "Source": "FormApp",
   "BasePath": "_content/FormApp",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FormApp---ASP.NET\\wwwroot\\img\\3c4237cc-91f1-4a41-8837-4869de8d9a05.png",
+      "SourceId": "FormApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FormApp---ASP.NET\\wwwroot\\",
+      "BasePath": "_content/FormApp",
+      "RelativePath": "img/3c4237cc-91f1-4a41-8837-4869de8d9a05.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\3c4237cc-91f1-4a41-8837-4869de8d9a05.png"
     },
     {
       "Identity": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FormApp---ASP.NET\\wwwroot\\img\\4.jpg",
