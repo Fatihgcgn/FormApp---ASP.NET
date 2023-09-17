@@ -24065,6 +24065,11 @@
       "FilePath": "c:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FormApp---ASP.NET\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FormApp---ASP.NET\\Views\\Home\\DeleteConfirm.cshtml",
+      "TargetPath": "Views\\Home\\DeleteConfirm.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }
