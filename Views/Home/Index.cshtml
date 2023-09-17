@@ -11,7 +11,7 @@
                         <select 
                         name="category" 
                         class="form-select"
-                        asp-items="@(new SelectList(Model.Categories, "CategoryId", "Name", Model.SelectedCategory))">
+                        asp-items="@(new SelectList(Model.Categories, "CategoryId","Name", Model.SelectedCategory))">
                             <option value="0">Hepsi</option>
                         </select>
                     </div>
@@ -43,7 +43,7 @@
                 <td>@prd.Name</td>
                 <td>@prd.Price</td>
                 <td>
-                    <a href="" class="btn btn-sm btn-primary">Edit</a>
+                    <a href="/Home/Edit/@prd.ProductId" class="btn btn-sm btn-primary">Edit</a>
                     <a href="" class="btn btn-sm btn-danger">Delete</a>
                 </td>
             </tr>
