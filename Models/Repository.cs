@@ -11,9 +11,9 @@ namespace FormApp.Models
             _categories.Add(new Category{CategoryId = 2,Name ="Bilgisayar"});
 
             _products.Add(new Product{ProductId = 1,Name = "Samsung S20",Price = 40000,IsActive=true,Image="1.jpg",CategoryId = 1});
-            _products.Add(new Product{ProductId = 2,Name = "Samsung S21",Price = 50000,IsActive=true,Image="2.jpg",CategoryId = 1});
+            _products.Add(new Product{ProductId = 2,Name = "Samsung S21",Price = 50000,IsActive=false,Image="2.jpg",CategoryId = 1});
             _products.Add(new Product{ProductId = 3,Name = "Samsung S22",Price = 60000,IsActive=true,Image="3.jpg",CategoryId = 1});
-            _products.Add(new Product{ProductId = 4,Name = "Samsung S22",Price = 70000,IsActive=true,Image="4.jpg",CategoryId = 1});
+            _products.Add(new Product{ProductId = 4,Name = "Samsung S22",Price = 70000,IsActive=false,Image="4.jpg",CategoryId = 1});
             
             _products.Add(new Product{ProductId = 5,Name = "Macbook",Price = 80000,IsActive=true,Image="laptop.jpeg",CategoryId = 2});
             _products.Add(new Product{ProductId = 6,Name = "Macbook Pro",Price = 85000,IsActive=true,Image="laptop2.jpeg",CategoryId = 2});
@@ -39,10 +39,22 @@ namespace FormApp.Models
 
             if(entity != null)
             {
+                if(!string.IsNullOrEmpty(updatedProduct.Name))
+                {
                 entity.Name = updatedProduct.Name;
+                }
                 entity.Price = updatedProduct.Price;
                 entity.Image = updatedProduct.Image;
                 entity.CategoryId = updatedProduct.CategoryId;
+                entity.IsActive = updatedProduct.IsActive;
+            } 
+        }
+        public static void EditIsActive(Product updatedProduct)
+        {
+            var entity = _products.FirstOrDefault(p=>p.ProductId == updatedProduct.ProductId);
+
+            if(entity != null)
+            {
                 entity.IsActive = updatedProduct.IsActive;
             } 
         }
